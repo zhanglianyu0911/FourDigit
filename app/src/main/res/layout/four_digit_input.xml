@@ -1,0 +1,62 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:id="@+id/pin_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText android:id="@+id/pin_first_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:typeface="monospace"
+            android:inputType="textNoSuggestions"
+            android:contentDescription="@string/pin_content_desc"
+            style="@style/PinEditTextStyle" />
+
+        <EditText android:id="@+id/pin_second_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:typeface="monospace"
+            android:inputType="textNoSuggestions"
+            android:contentDescription="@string/pin_content_desc"
+            style="@style/PinEditTextStyle" />
+
+        <EditText android:id="@+id/pin_third_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:typeface="monospace"
+            android:inputType="textNoSuggestions"
+            android:contentDescription="@string/pin_content_desc"
+            style="@style/PinEditTextStyle" />
+
+        <EditText android:id="@+id/pin_forth_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:typeface="monospace"
+            android:inputType="textNoSuggestions"
+            android:contentDescription="@string/pin_content_desc"
+            style="@style/PinEditTextStyle" />
+    </LinearLayout>
+
+    <EditText android:id="@+id/pin_hidden_edittext"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_alignRight="@+id/pin_layout"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textUri|textNoSuggestions"
+        android:maxLength="16"
+        android:textColor="#00000000"
+        android:typeface="monospace"
+        android:cursorVisible="true"
+        android:contentDescription="@string/pin_content_desc" />
+
+</RelativeLayout>

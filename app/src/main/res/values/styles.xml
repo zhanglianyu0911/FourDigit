@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PinEditTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:maxLength">4</item>
+        <item name="android:minEms">4</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>
